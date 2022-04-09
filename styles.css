@@ -75,6 +75,7 @@ span{
 
 }
 
+
 .toggle-btn{
   margin: 1px 0;
   height: 85%;
@@ -122,6 +123,10 @@ align-content: center;
 align-items: center;
 height: 90%;
 box-shadow: 0 4px 0 var(--btn-shadow, hsl(28, 16%, 65%));
+}
+.btn:hover{
+  opacity: 80%;
+
 }
 .reset{
 

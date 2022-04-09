@@ -90,8 +90,8 @@ btns.map(button => {
         break;
 
       case '=':
-        
-
+          number= calcScreen.innerText;
+          
           calcScreen.innerText = eval(calcScreen.innerText);
 
 
