@@ -56,15 +56,16 @@ display: flex;
   height: 100%;
 }
 span{
+  cursor: pointer;
   position: relative;
-  width: 13px;
+  width: 15px;
   height: 100%;
   display: inline-block;
   font-size: 16px;
   z-index: 2;
 }
 .toggle{
-  width: 60px;
+  width: 65px;
   height: 20px;
   border-radius: 15px;
   position: absolute;
@@ -75,12 +76,13 @@ span{
 }
 
 .toggle-btn{
-  margin-top: 4%;
+  margin: 1px 0;
   height: 85%;
   width:18px;
   background-color: var(--toggle-color, hsl(6, 63%, 50%));
   border-radius: 50%;
   position: absolute;
+
 
 }
 .toggle-1{left:0px}
@@ -97,7 +99,7 @@ span{
   color: var(--screen-text-color,white);
 }
 .calc-screen p{
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .keypad{
 
@@ -111,7 +113,7 @@ span{
   align-content: center;
 }
 .btn{
-
+cursor: pointer;
 background-color: var(--btn-color, hsl(30, 25%, 89%));
 border-radius:  7px;
 display: flex;
